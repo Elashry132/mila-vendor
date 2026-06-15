@@ -1,0 +1,296 @@
+00:00 +0: loading E:/Moment of joy/vendor_app/test/walkthrough_test.dart
+00:00 +0: (setUpAll)
+00:00 +0: P0 — Auth V01-vendor-login — email, password, login button visible
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 23 pixels on the right.
+
+The relevant error-causing widget was:
+  Row
+  Row:file:///E:/Moment%20of%20joy/vendor_app/lib/features/auth/view/vendor_login_screen.dart:238:27
+
+The overflowing RenderFlex has an orientation of Axis.horizontal.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#b8254 relayoutBoundary=up19 OVERFLOWING:
+  creator: Row ← Column ← Padding ← DecoratedBox ← ConstrainedBox ← Container ← Column ← Padding ←
+    _SingleChildViewport ← IgnorePointer-[GlobalKey#ec9a4] ← Semantics ← Listener ← ⋯
+  parentData: offset=Offset(0.0, 289.0); flex=null; fit=null (can use size)
+  constraints: BoxConstraints(0.0<=w<=274.0, 0.0<=h<=Infinity)
+  size: Size(274.0, 17.0)
+  direction: horizontal
+  mainAxisAlignment: spaceBetween
+  mainAxisSize: max
+  crossAxisAlignment: center
+  textDirection: ltr
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: empty
+  Actual: WhereIterable<String>:['A RenderFlex overflowed by 23 pixels on the right.']
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure>.<anonymous closure> (file:///E:/Moment%20of%20joy/vendor_app/test/walkthrough_test.dart:99:7)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///E:/Moment%20of%20joy/vendor_app/test/walkthrough_test.dart line 99
+The test description was:
+  V01-vendor-login — email, password, login button visible
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following message was thrown:
+Multiple exceptions (2) were detected during the running of the current test, and at least one was
+unexpected.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +0 -1: P0 — Auth V01-vendor-login — email, password, login button visible [E]
+  Test failed. See exception logs above.
+  The test description was: V01-vendor-login — email, password, login button visible
+  
+00:01 +0 -1: P0 — Auth V02-vendor-register — Step 1 form with category dropdown
+00:01 +1 -1: P0 — Auth V03-vendor-otp — 6-digit PIN and countdown
+00:02 +2 -1: P0 — Auth V04-vendor-forgot-password — email field and send button
+00:02 +3 -1: P0 — Dashboard V05-vendor-dashboard — KPI cards and revenue chart
+00:02 +4 -1: P0 — Booking Management V06-vendor-bookings — filter tabs and booking cards
+00:03 +5 -1: P0 — Booking Management V07-vendor-booking-detail — client info and payment breakdown
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 0.274 pixels on the right.
+
+The relevant error-causing widget was:
+  Row
+  Row:file:///E:/Moment%20of%20joy/vendor_app/lib/features/bookings/view/vendor_booking_detail_screen.dart:231:12
+
+The overflowing RenderFlex has an orientation of Axis.horizontal.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#25756 relayoutBoundary=up17 OVERFLOWING:
+  creator: Row ← Column ← Padding ← DecoratedBox ← ConstrainedBox ← Container ← Column ← Padding ←
+    _SingleChildViewport ← IgnorePointer-[GlobalKey#ed3a9] ← Semantics ← Listener ← ⋯
+  parentData: offset=Offset(0.0, 157.0); flex=null; fit=null (can use size)
+  constraints: BoxConstraints(0.0<=w<=294.0, 0.0<=h<=Infinity)
+  size: Size(294.0, 40.0)
+  direction: horizontal
+  mainAxisAlignment: start
+  mainAxisSize: max
+  crossAxisAlignment: center
+  textDirection: ltr
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 31 pixels on the right.
+
+The relevant error-causing widget was:
+  Row
+  Row:file:///E:/Moment%20of%20joy/vendor_app/lib/features/bookings/view/vendor_booking_detail_screen.dart:257:12
+
+The overflowing RenderFlex has an orientation of Axis.horizontal.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#08a2a relayoutBoundary=up17 OVERFLOWING:
+  creator: Row ← Column ← Padding ← DecoratedBox ← ConstrainedBox ← Container ← Column ← Padding ←
+    _SingleChildViewport ← IgnorePointer-[GlobalKey#ed3a9] ← Semantics ← Listener ← ⋯
+  parentData: offset=Offset(0.0, 127.0); flex=null; fit=null (can use size)
+  constraints: BoxConstraints(0.0<=w<=294.0, 0.0<=h<=Infinity)
+  size: Size(294.0, 20.0)
+  direction: horizontal
+  mainAxisAlignment: spaceBetween
+  mainAxisSize: max
+  crossAxisAlignment: center
+  textDirection: ltr
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: empty
+  Actual: WhereIterable<String>:[
+            'A RenderFlex overflowed by 0.274 pixels on the right.',
+            'A RenderFlex overflowed by 31 pixels on the right.'
+          ]
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure>.<anonymous closure> (file:///E:/Moment%20of%20joy/vendor_app/test/walkthrough_test.dart:180:7)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///E:/Moment%20of%20joy/vendor_app/test/walkthrough_test.dart line 180
+The test description was:
+  V07-vendor-booking-detail — client info and payment breakdown
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following message was thrown:
+Multiple exceptions (3) were detected during the running of the current test, and at least one was
+unexpected.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:03 +5 -2: P0 — Booking Management V07-vendor-booking-detail — client info and payment breakdown [E]
+  Test failed. See exception logs above.
+  The test description was: V07-vendor-booking-detail — client info and payment breakdown
+  
+00:03 +5 -2: P0 — Service Management V08-vendor-services — service cards with toggles
+00:03 +6 -2: P0 — Service Management V09-edit-service — gallery, title, price, description fields
+00:03 +7 -2: P1 — Earnings V10-vendor-earnings — balance card and 6-month chart
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 3.0 pixels on the right.
+
+The relevant error-causing widget was:
+  Row
+  Row:file:///E:/Moment%20of%20joy/vendor_app/lib/features/earnings/view/vendor_earnings_screen.dart:348:14
+
+The overflowing RenderFlex has an orientation of Axis.horizontal.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#697f7 relayoutBoundary=up6 OVERFLOWING:
+  creator: Row ← Padding ← DecoratedBox ← Container ← Column ← Padding ← SliverToBoxAdapter ← Viewport
+    ← IgnorePointer-[GlobalKey#fd090] ← Semantics ← Listener ← _GestureSemantics ← ⋯
+  parentData: offset=Offset(16.0, 16.0) (can use size)
+  constraints: BoxConstraints(0.0<=w<=318.0, 0.0<=h<=Infinity)
+  size: Size(318.0, 48.0)
+  direction: horizontal
+  mainAxisAlignment: spaceBetween
+  mainAxisSize: max
+  crossAxisAlignment: center
+  textDirection: ltr
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: empty
+  Actual: WhereIterable<String>:['A RenderFlex overflowed by 3.0 pixels on the right.']
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure>.<anonymous closure> (file:///E:/Moment%20of%20joy/vendor_app/test/walkthrough_test.dart:223:7)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///E:/Moment%20of%20joy/vendor_app/test/walkthrough_test.dart line 223
+The test description was:
+  V10-vendor-earnings — balance card and 6-month chart
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following message was thrown:
+Multiple exceptions (2) were detected during the running of the current test, and at least one was
+unexpected.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:04 +7 -3: P1 — Earnings V10-vendor-earnings — balance card and 6-month chart [E]
+  Test failed. See exception logs above.
+  The test description was: V10-vendor-earnings — balance card and 6-month chart
+  
+00:04 +7 -3: P1 — Chat V11-vendor-chat — conversation list with filters
+00:04 +8 -3: P1 — Chat V12-vendor-chat-detail — message bubbles and customer header
+00:04 +9 -3: P1 — Profile & Reviews V13-vendor-profile — rating, portfolio, about section
+00:04 +10 -3: P1 — Profile & Reviews V14-vendor-reviews — rating breakdown and review cards
+00:05 +11 -3: P2 — Notifications & Settings V15-vendor-notifications — notification list
+00:05 +12 -3: P2 — Notifications & Settings V16-vendor-settings — toggles and logout button
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: one widget whose rasterized image matches golden image "goldens/V16-vendor-settings.png"
+  Actual: _TypeWidgetFinder:<Found 1 widget with type "MaterialApp": [
+            MaterialApp(state: _MaterialAppState#c1d16),
+          ]>
+   Which: Could not be compared against non-existent file: "goldens/V16-vendor-settings.png"
+
+When the exception was thrown, this was the stack:
+#0      fail (package:matcher/src/expect/expect.dart:149:31)
+#1      _expect.<anonymous closure> (package:matcher/src/expect/expect.dart:125:9)
+<asynchronous suspension>
+<asynchronous suspension>
+#8      expectLater.<anonymous closure> (package:flutter_test/src/widget_tester.dart:508:19)
+<asynchronous suspension>
+#9      main.<anonymous closure>.<anonymous closure> (file:///E:/Moment%20of%20joy/vendor_app/test/walkthrough_test.dart:307:7)
+<asynchronous suspension>
+#10     testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#11     TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 7 frames from dart:async and package:stack_trace)
+
+The test description was:
+  V16-vendor-settings — toggles and logout button
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:05 +12 -4: P2 — Notifications & Settings V16-vendor-settings — toggles and logout button [E]
+  Test failed. See exception logs above.
+  The test description was: V16-vendor-settings — toggles and logout button
+  
+00:05 +12 -4: UI/UX — Vendor cross-screen checks VX01 — Login: Google and Apple buttons are tappable
+00:05 +13 -4: UI/UX — Vendor cross-screen checks VX02 — Register: Continue button is tappable (has GestureDetector)
+00:05 +14 -4: UI/UX — Vendor cross-screen checks VX03 — OTP: Verify button is tappable
+00:05 +15 -4: UI/UX — Vendor cross-screen checks VX04 — Settings: LOG OUT button is tappable
+00:05 +16 -4: UI/UX — Vendor cross-screen checks VX05 — EditService: availability switch present and toggleable
+
+Warning: A call to tap() with finder "Found 1 widget with type "Switch" (ignoring all but first): [
+  Switch(value: on, dependencies: [InheritedCupertinoTheme, _InheritedTheme, _LocalizationsScope-[GlobalKey#59ff9]]),
+]" derived an Offset (Offset(312.0, 1003.0)) that would not hit test on the specified widget.
+Maybe the widget is actually off-screen, or another widget is obscuring it, or the widget cannot receive pointer events.
+Indeed, Offset(312.0, 1003.0) is outside the bounds of the root of the render tree, Size(390.0, 844.0).
+The finder corresponds to this RenderBox: RenderSemanticsAnnotations#b1d74 relayoutBoundary=up16
+The hit test result at that offset is: HitTestResult(HitTestEntry<HitTestTarget>#b5558(_ReusableRenderView#9582e), HitTestEntry<HitTestTarget>#b55ff(<AutomatedTestWidgetsFlutterBinding>))
+#0      WidgetController._getElementPoint (package:flutter_test/src/controller.dart:2077:25)
+#1      WidgetController.getCenter (package:flutter_test/src/controller.dart:1861:12)
+#2      WidgetController.tap (package:flutter_test/src/controller.dart:1041:7)
+#3      main.<anonymous closure>.<anonymous closure> (file:///E:/Moment%20of%20joy/vendor_app/test/walkthrough_test.dart:358:20)
+<asynchronous suspension>
+#4      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#5      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+<asynchronous suspension>
+#6      StackZoneSpecification._registerCallback.<anonymous closure> (package:stack_trace/src/stack_zone_specification.dart:114:42)
+<asynchronous suspension>
+To silence this warning, pass "warnIfMissed: false" to "tap()".
+To make this warning fatal, set WidgetController.hitTestWarningShouldBeFatal to true.
+
+00:06 +17 -4: (tearDownAll)
+00:06 +17 -4: Some tests failed.

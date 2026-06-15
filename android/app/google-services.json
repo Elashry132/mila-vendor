@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1026763381681",
+    "project_id": "moment-of-joy-c9c73",
+    "storage_bucket": "moment-of-joy-c9c73.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026763381681:android:5cff41fb7276549075fb90",
+        "android_client_info": {
+          "package_name": "com.iqonic.servicebooking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI8S1m5ZlKlVzCkzXFnHOpf9XvTk-njQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
